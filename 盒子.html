@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>盒子测试</title>
+</head>
+
+<style>
+    .header {
+        display: block;
+        text-align: center;
+        font-size: 50px;
+        color: crimson;
+    }
+
+
+    .导航栏 {
+        border-top: 5px solid orange;
+        background-color: whitesmoke;
+        height: auto;
+        text-align: center;
+    }
+
+
+    .导航栏 a {
+        font-size: 50px;
+        display: inline-block;
+        color: orange;
+        width: 250px;
+        height: auto;
+        text-decoration: none;
+    }
+
+    .导航栏 a:hover {
+        display: inline-block;
+        background-color: rgb(223, 223, 223);
+        color: rgb(110, 132, 131);
+        text-decoration: none;
+
+    }
+
+    .定位 {
+        display: -webkit-flex;
+        display: flex;
+        background-color: whitesmoke;
+        width: auto;
+        height: auto;
+    }
+
+
+    .div1 {
+        display: inline-block;
+        border: 5px solid cyan;
+        height: 1280px;
+        width: 150px;
+        color: darkseagreen;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .div1 a {
+        display: inline-block;
+        word-wrap: break-word;
+        font-size: 35px;
+        color: brown;
+        width: 150px;
+        height: 50px;
+        text-decoration: none;
+
+    }
+
+    .div1 a:hover {
+        display: inline-block;
+        color: rgb(110, 132, 131);
+        text-decoration: none;
+
+    }
+
+    .div2 {
+        display: inline-block;
+        border: 5px solid red;
+        width: 1920px;
+        height: auto;
+
+    }
+
+    .footer {
+
+        background-color: #442B1C;
+        width: 1400px;
+        height: auto;
+        position: absolute;
+        bottom: 0;
+    }
+
+    .尾栏 {
+        display: block;
+        font-size: 20px;
+        background-color: darkgray;
+        color: whitesmoke;
+    }
+
+    .尾栏 h1 {
+        font-size: 50px;
+    }
+
+    .尾栏 p {
+        display: -webkit-flex;
+        display: flex;
+        font-size: 23px;
+        width: auto;
+        height: auto;
+        color: aliceblues;
+    }
+
+    .尾栏 a {
+        display: inline-block;
+        font-size: 20px;
+        color: brown;
+        text-decoration: none;
+
+    }
+
+    .尾栏 a:hover {
+        display: inline-block;
+        color: rgb(110, 132, 131);
+        text-decoration: none;
+    }
+</style>
+
+
+<body>
+    <header class="header">
+        盒子测试页面
+    </header>
+    <div class="导航栏">
+        <a href="https://www.baidu.com/" target="_blank">
+            百度搜索
+        </a>
+        <a href="https://www.sogou.com/" target="_blank">
+            搜狗搜索
+        </a>
+        <a href="https://www.so.com/" target="_blank">
+            360搜索
+        </a>
+    </div>
+
+    <div class="定位">
+        <div class="div1">
+            <a href="#" target="_blank">测试1</a>
+            <a href="#" target="_blank">测试2</a>
+            <a href="#" target="_blank">测试3</a>
+            <a href="#" target="_blank">测试4</a>
+            <a href="#" target="_blank">测试5</a>
+            <a href="#" target="_blank">测试6</a>
+        </div>
+        <div class="div2">
+            <h1>测试页面</h1>
+            <p style="font-size: 20px;">测试</p>
+            <p style="font-size: 20px;">测试</p>
+            <p style="font-size: 20px;">测试</p>
+            <p style="font-size: 20px;">测试</p>
+            <p style="font-size: 20px;">测试</p>
+            <p style="font-size: 20px;">测试</p>
+            <p style="font-size: 20px;">测试</p>
+            <p style="font-size: 20px;">测试</p>
+            <p style="font-size: 20px;">测试</p>
+            <p style="font-size: 20px;">测试</p>
+        </div>
+    </div>
+    <footer class="尾栏">
+        <h1>服务帮助</h1>
+        <p>解决方案</p>
+        <a href="#" target="_blank">技术实践</a><br>
+        <a href="#" target="_blank">使用案例</a><br>
+        <a href="#" target="_blank">本站问题解决方案</a>
+
+
+        <p>开发者社区</p>
+        <a href="#" target="_blank">帮助文档</a><br>
+        <a href="#" target="_blank">开源平台</a><br>
+        <a href="#" target="_blank">开发者社区</a><br>
+        <a href="#" target="_blank">培训</a><br>
+        <a href="#" target="_blank">平台内置编辑器</a>
+
+
+        <p>支持与服务</p>
+        <a href="#" target="_blank">基础服务</a><br>
+        <a href="#" target="_blank">官网公告</a><br>
+        <a href="#" target="_blank">系统状态</a>
+
+
+        <p>关注本站</p>
+        <a href="#" target="_blank">本站APP</a><br>
+        <a href="https://i.328888.xyz/2023/04/01/iHfZJE.jpeg">本站微信</a><br>
+
+    </footer>
+
+</body>
+
+</html>
